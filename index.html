@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbot vs Agente de IA | Comparador XMACNA</title>
+  <meta name="description" content="Compare chatbot, agente de IA e Funcionario Digital com IA. Entenda quando usar cada solucao para WhatsApp, vendas, atendimento e automacao com IA.">
+  <link rel="canonical" href="https://xmacna.github.io/chatbot-vs-agente-ia/">
+  <meta property="og:title" content="Chatbot vs Agente de IA">
+  <meta property="og:description" content="Matriz de decisao da XMACNA para comparar chatbot, agente de IA e Funcionario Digital com IA.">
+  <meta property="og:url" content="https://xmacna.github.io/chatbot-vs-agente-ia/">
+  <meta property="og:type" content="website">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Chatbot vs Agente de IA",
+    "description": "Comparador publico da XMACNA para decidir entre chatbot, agente de IA e Funcionario Digital com IA.",
+    "author": {
+      "@type": "Organization",
+      "name": "XMACNA",
+      "url": "https://xmacna.ai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "XMACNA",
+      "url": "https://xmacna.ai"
+    },
+    "mainEntityOfPage": "https://xmacna.github.io/chatbot-vs-agente-ia/"
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --panel: #fff;
+      --ink: #111827;
+      --muted: #556170;
+      --line: #dce3ec;
+      --accent: #0f766e;
+      --blue: #1d4ed8;
+      --soft: #eaf7f5;
+      --soft-blue: #edf4ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+
+    a { color: var(--blue); }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      padding: 22px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav strong { font-size: 18px; }
+
+    .nav div {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 52px 0 28px;
+    }
+
+    .kicker {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(36px, 7vw, 70px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 19px;
+      margin: 18px 0 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      padding: 20px 0 34px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .card.featured {
+      background: var(--soft);
+      border-color: #b8ded8;
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      background: #f0f4f8;
+      font-size: 14px;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-flex;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--soft-blue);
+      color: #123f8c;
+      font-weight: 700;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .section {
+      padding: 18px 0 48px;
+    }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    label {
+      display: flex;
+      gap: 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    input { margin-top: 5px; }
+
+    .result {
+      position: sticky;
+      top: 18px;
+      background: var(--soft);
+      border-color: #b8ded8;
+    }
+
+    .result strong {
+      display: block;
+      font-size: 28px;
+      line-height: 1.1;
+      margin: 8px 0;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 16px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .btn.secondary {
+      background: #fff;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+    }
+
+    footer {
+      background: #fff;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 24px 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 840px) {
+      .grid,
+      .checklist {
+        grid-template-columns: 1fr;
+      }
+
+      .result { position: static; }
+      table { font-size: 14px; }
+      th, td { padding: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <strong>XMACNA</strong>
+      <div>
+        <a href="https://xmacna.ai">Site</a>
+        <a href="https://xmacna.ai/agente-ia-vs-chatbot">Comparativo canonico</a>
+        <a href="https://xmacna.ai/diagnostico">Diagnostico</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <p class="kicker">Chatbot vs agente de IA</p>
+      <h1>Quando chatbot resolve, e quando voce precisa de um Funcionario Digital com IA.</h1>
+      <p class="lead">Compare fluxo fixo, agente de IA e Funcionario Digital para WhatsApp, vendas, atendimento, CRM e automacao com IA.</p>
+    </section>
+
+    <section class="wrap grid" aria-label="Resumo das opcoes">
+      <article class="card">
+        <h2>Chatbot</h2>
+        <p>Bom para FAQ simples, respostas previsiveis e triagem basica. Limitado quando a conversa sai do roteiro.</p>
+      </article>
+      <article class="card">
+        <h2>Agente de IA</h2>
+        <p>Melhor quando a conversa exige linguagem natural, contexto, interpretacao e decisao.</p>
+      </article>
+      <article class="card featured">
+        <h2>Funcionario Digital</h2>
+        <p>Indicado quando a IA precisa executar o processo completo: qualificar, registrar, encaminhar e medir resultado.</p>
+      </article>
+    </section>
+
+    <section class="wrap section">
+      <table aria-label="Matriz de comparacao">
+        <thead>
+          <tr>
+            <th>Cenario</th>
+            <th>Chatbot</th>
+            <th>Agente de IA</th>
+            <th>Funcionario Digital com IA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>FAQ simples</td><td><span class="tag">bom</span></td><td>excesso</td><td>excesso</td></tr>
+          <tr><td>Perguntas imprevisiveis</td><td>fraco</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+          <tr><td>Qualificacao de lead</td><td>limitado</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+          <tr><td>Atualizacao de CRM ou Painel Inteligente</td><td>fraco</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+          <tr><td>Atendimento 24/7 com contexto</td><td>limitado</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+          <tr><td>Transferencia para humano com resumo</td><td>limitado</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+          <tr><td>Processo comercial com proximo passo</td><td>fraco</td><td><span class="tag">bom</span></td><td><span class="tag">forte</span></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="wrap section checklist">
+      <div class="card">
+        <h2>Checklist rapido</h2>
+        <label><input type="checkbox"> O cliente pode perguntar de varias formas.</label>
+        <label><input type="checkbox"> A resposta depende de historico, contexto ou dados internos.</label>
+        <label><input type="checkbox"> A conversa precisa virar lead, tarefa ou oportunidade.</label>
+        <label><input type="checkbox"> Existe perda financeira quando a resposta demora.</label>
+        <label><input type="checkbox"> O time precisa receber resumo antes de assumir.</label>
+        <label><input type="checkbox"> O lead precisa ser qualificado antes do vendedor entrar.</label>
+        <label><input type="checkbox"> O processo precisa funcionar fora do horario comercial.</label>
+        <label><input type="checkbox"> O CRM ou Painel Inteligente precisa ser atualizado automaticamente.</label>
+        <label><input type="checkbox"> Ha regras de negocio por segmento, urgencia ou perfil.</label>
+        <label><input type="checkbox"> Voce quer medir resultado, nao apenas contar mensagens.</label>
+      </div>
+
+      <aside class="card result" aria-live="polite">
+        <span>Recomendacao</span>
+        <strong id="recommendation">Chatbot simples</strong>
+        <p id="reason">Se poucas respostas forem sim, um fluxo simples pode resolver.</p>
+        <div class="cta">
+          <a class="btn" href="https://xmacna.ai/diagnostico">Fazer diagnostico</a>
+          <a class="btn secondary" href="https://xmacna.ai/agente-ia-vs-chatbot">Ver guia completo</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">XMACNA | Funcionarios Digitais com IA. Comparador educativo, nao promessa de resultado.</div>
+  </footer>
+
+  <script>
+    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'));
+    const recommendation = document.getElementById('recommendation');
+    const reason = document.getElementById('reason');
+
+    function update() {
+      const score = boxes.filter((box) => box.checked).length;
+      if (score <= 2) {
+        recommendation.textContent = 'Chatbot simples';
+        reason.textContent = 'Quando a resposta e previsivel e nao depende de dados, um chatbot de fluxo pode resolver.';
+      } else if (score <= 6) {
+        recommendation.textContent = 'Agente de IA';
+        reason.textContent = 'Quando a conversa exige contexto e decisao, um agente de IA e mais adequado que fluxo fixo.';
+      } else {
+        recommendation.textContent = 'Funcionario Digital com IA';
+        reason.textContent = 'Quando a IA precisa executar o processo completo e medir resultado, considere um Funcionario Digital.';
+      }
+    }
+
+    boxes.forEach((box) => box.addEventListener('change', update));
+    update();
+  </script>
+</body>
+</html>
+
