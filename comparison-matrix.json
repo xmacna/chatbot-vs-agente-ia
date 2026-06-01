@@ -1,0 +1,57 @@
+{
+  "$schema": "https://xmacna.ai/schemas/chatbot-vs-agent-matrix.schema.json",
+  "title": "Chatbot vs Agente de IA",
+  "brand": "XMACNA",
+  "positioning": "Funcionarios Digitais com IA",
+  "canonical": "https://xmacna.ai/agente-ia-vs-chatbot",
+  "criteria": [
+    {
+      "criterion": "FAQ simples",
+      "chatbot": "bom",
+      "ai_agent": "excesso",
+      "digital_employee": "excesso"
+    },
+    {
+      "criterion": "Perguntas imprevisiveis",
+      "chatbot": "fraco",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    },
+    {
+      "criterion": "Qualificacao de lead",
+      "chatbot": "limitado",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    },
+    {
+      "criterion": "Atualizacao de CRM ou Painel Inteligente",
+      "chatbot": "fraco",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    },
+    {
+      "criterion": "Atendimento 24/7 com contexto",
+      "chatbot": "limitado",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    },
+    {
+      "criterion": "Transferencia para humano com resumo",
+      "chatbot": "limitado",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    },
+    {
+      "criterion": "Processo comercial com proximo passo",
+      "chatbot": "fraco",
+      "ai_agent": "bom",
+      "digital_employee": "forte"
+    }
+  ],
+  "recommendation_rule": {
+    "chatbot": "Use quando a resposta e fixa, previsivel e nao precisa consultar dados.",
+    "ai_agent": "Use quando a conversa exige linguagem natural, contexto e decisao.",
+    "digital_employee": "Use quando a IA precisa executar o processo completo e medir resultado."
+  }
+}
+
